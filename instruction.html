@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="web.css">
+    </head>
+    <body>
+        <button onclick="goBack()" class="button1">&laquo;&emsp;Back</button>
+        <div>
+            <h1>INSTRUCTION</h1>
+            <hr width="140">
+        </div>
+        <div>
+            <p>
+            1. You can win this game by ordering numbers in ascending order from top to bottom.
+            </p>
+            <p>
+            2. You can make one move at a time.
+            </p>
+            <p>
+            3. Numbers can be able to move only to the empty position which needs to be its adjacent side.
+            </p>
+            <p>
+                Example:
+            </p>
+            <img src = "Example.png" height="330px" width="325px">
+        </div>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    </body>
+</html>
